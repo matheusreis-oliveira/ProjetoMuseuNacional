@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
+    <title>Página Inicial - Museu Nacional</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="">Página Inicial</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="img/museu.png">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Encontre o museu</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1615415857996!5m2!1spt-BR!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </article>
+
+                    <article id="exposicao">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                            <li><a href="">O crânio da Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="">Preguiça gigante e tigres-dente-de-sabre</a></li>
+                            <li><a href="">Plantas do Brasil Central</a></li>
+                            <li><a href="">Tereza Cristina: A Imperatriz Arqueóloga</a></li>
+                            <li><a href="">Arte com dinossauros - Paleoarte</a></li>
+                            <li><a href=""><strong>Veja todos (42)</strong></a></li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 Anos de História</h3>
+                        <p>O Museu Nacional é uma instituição científica surgida no Brasil, em 1818, e possui
+                            departamentos relacionados a diferentes áreas do conhecimento, tais como antropologia,
+                            geologia, botânica, mineralogia etc. Surgido durante o Período Joanino, o museu foi sempre
+                            uma referência na produção de conhecimento e um local de acesso à cultura. Em junho de 2018,
+                            o Museu Nacional completou 200 anos de existência.</p>
+                        <a href=""><strong>Leia mais</strong></a>
+                    </article>
+                </section>
+
+            </div>
+
+            <aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" style="width: 125px;" type="date" id="data" required>
+                            <br>
+                            <label for="qtd">Quantidade de pessoas</label>
+                            <input class="campo" style="width: 35px;" type="number" id="qtd" value="0" min="0" max="99"
+                                required>
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+
+                </section>
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="img/imagem1.jpg" height="93px" width="93px" alt="foto do museu">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem2.jpg" height="93px" width="93px" alt="foto do museu">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem3.jpg" height="93px" width="93px" alt="foto do museu">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem4.jpg" height="93px" width="93px" alt="foto do museu">
+
+                </section>
+
+            </aside>
+
+            <footer>
+                <p>
+                    <a href="">Página Inicial</a>
+                    <a href="">Exposições</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervo</a>
+                    <a href="">Vídeos</a>
+                    <a href="">Fotos</a>
+                    <a href="">Contato</a>
+                </p>
+                <p>2021 <a href="">MUSEU NACIONAL</a></p> Todos os direitos reservados &copy;
+            </footer>
+
+        </div>
+    </div>
+</body>
+
+</html>
